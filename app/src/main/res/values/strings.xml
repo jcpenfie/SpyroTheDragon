@@ -13,4 +13,7 @@
     <string name="titulo_del_juego">titulo del juego</string>
     <string name="cara_de_spyro">cara de Spyro</string>
     <string name="listo_para_empezar">¿Listo para empezar?</string>
+    <string name="bot_n_diamante">Botón diamante</string>
+    <string name="comenzar">Comenzar</string>
+    <string name="bot_n_de_diamante">botón de diamante</string>
 </resources>

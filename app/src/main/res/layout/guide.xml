@@ -8,7 +8,7 @@
     android:background="@color/purple_transparent"
     android:clickable="true"
     android:focusable="true"
-    android:visibility="gone">
+>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -35,7 +35,7 @@
             />
         <ImageView
             android:layout_width="match_parent"
-            android:layout_height="150dp"
+            android:layout_height="100dp"
             android:contentDescription="@string/titulo_del_juego"
             android:src="@drawable/title"
             />
@@ -69,6 +69,36 @@
             android:contentDescription="@string/cara_de_spyro"
             android:src="@drawable/skill_points"
             />
+        <FrameLayout
+            android:id="@+id/button_comenzar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackground">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/bot_n_de_diamante"
+                android:src="@drawable/gems" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/comenzar"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:shadowColor="#000000"
+                android:shadowDx="3"
+                android:shadowDy="3"
+                android:shadowRadius="2" />
+        </FrameLayout>
 
     </LinearLayout>
 </FrameLayout>
