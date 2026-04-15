@@ -6,4 +6,11 @@
     <string name="title_about">Acerca de</string>
     <string name="text_about">Aplicación desarrollada por \n <b>Juan Carlos Peña Fierro.</b></string>
     <string name="accept">Aceptar</string>
+    <string name="bienvenido">Bienvenido</string>
+    <string name="desc1">Prepárate para explorar el mundo mágico de esta aplicación inspirada en</string>
+    <string name="desc2">Aquí aprenderás a navegar por pestañas llenas de dragones, mundos fascinantes y montones de tesoros brillantes.</string>
+    <string name="desc3">Pulsa \"Comenzar\" y deja que Spyro te lleve volando a través de esta guía interactiva.</string>
+    <string name="titulo_del_juego">titulo del juego</string>
+    <string name="cara_de_spyro">cara de Spyro</string>
+    <string name="listo_para_empezar">¿Listo para empezar?</string>
 </resources>
