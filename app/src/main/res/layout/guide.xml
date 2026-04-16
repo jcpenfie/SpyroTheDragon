@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/guide_Layout"
-    android:layout_height="match_parent"
     android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:background="@color/purple_transparent"
     android:clickable="true"
-    android:focusable="true"
->
+    android:focusable="true">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -19,56 +17,56 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/bienvenido"
-            android:textColor="@color/white"
-            android:textSize="60sp"
             android:layout_marginTop="30dp"
             android:gravity="center"
-            />
+            android:text="@string/bienvenido"
+            android:textColor="@color/white"
+            android:textSize="60sp" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="10dp"
             android:text="@string/desc1"
             android:textColor="@color/white"
-            android:layout_margin="10dp"
-            android:textSize="20sp"
-            />
+            android:textSize="20sp" />
+
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:contentDescription="@string/titulo_del_juego"
-            android:src="@drawable/title"
-            />
+            android:src="@drawable/title" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="10dp"
             android:text="@string/desc2"
             android:textColor="@color/white"
-            android:textSize="20sp"
-            android:layout_margin="10dp"
-            />
+            android:textSize="20sp" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="10dp"
             android:text="@string/listo_para_empezar"
             android:textColor="@color/white"
-            android:textSize="20sp"
-            android:layout_margin="10dp"
-            />
+            android:textSize="20sp" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="10dp"
             android:text="@string/desc3"
             android:textColor="@color/white"
-            android:textSize="20sp"
-            android:layout_margin="10dp"
-            />
+            android:textSize="20sp" />
+
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:contentDescription="@string/cara_de_spyro"
-            android:src="@drawable/skill_points"
-            />
+            android:src="@drawable/skill_points" />
+
         <FrameLayout
             android:id="@+id/button_comenzar"
             android:layout_width="wrap_content"
@@ -90,14 +88,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="@string/comenzar"
-                android:textColor="@color/white"
-                android:textSize="20sp"
-                android:textStyle="bold"
                 android:shadowColor="#000000"
                 android:shadowDx="3"
                 android:shadowDy="3"
-                android:shadowRadius="2" />
+                android:shadowRadius="2"
+                android:text="@string/comenzar"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
         </FrameLayout>
 
     </LinearLayout>
