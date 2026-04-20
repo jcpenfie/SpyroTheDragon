@@ -59,9 +59,9 @@ class MainActivity : AppCompatActivity() {
 
         // Prefs -> Mostrar guía si es la primera vez
         val prefs = getSharedPreferences("SpyroPrefs", MODE_PRIVATE)
-        if(!prefs.getBoolean("guia_completada", false)) {
+        if (!prefs.getBoolean("guia_completada", false)) {
             mostrarGuia()
-        } else{
+        } else {
             guideBinding.guideLayout.visibility = View.GONE
         }
     }
@@ -102,7 +102,7 @@ class MainActivity : AppCompatActivity() {
             .show()
     }
 
-    private fun mostrarGuia(){
+    private fun mostrarGuia() {
         guideBinding.guideLayout.visibility = View.VISIBLE
         mostrarPantalla(1)
 
@@ -122,7 +122,7 @@ class MainActivity : AppCompatActivity() {
         // TODO: OMITIR
     }
 
-    private fun mostrarPantalla(numero:Int){
+    private fun mostrarPantalla(numero: Int) {
         guideBinding.pantalla1.visibility = View.GONE
         guideBinding.pantalla2.visibility = View.GONE
         guideBinding.pantalla3.visibility = View.GONE
@@ -130,7 +130,7 @@ class MainActivity : AppCompatActivity() {
         guideBinding.pantalla5.visibility = View.GONE
         guideBinding.pantalla6.visibility = View.GONE
 
-        when (numero){
+        when (numero) {
             1 -> guideBinding.pantalla1.visibility = View.VISIBLE
             2 -> guideBinding.pantalla2.visibility = View.VISIBLE
             3 -> guideBinding.pantalla3.visibility = View.VISIBLE
