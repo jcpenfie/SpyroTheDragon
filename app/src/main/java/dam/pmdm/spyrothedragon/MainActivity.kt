@@ -110,16 +110,16 @@ class MainActivity : AppCompatActivity() {
         guideBinding.buttonComenzar.setOnClickListener { animarTransicion { mostrarPantalla(2) } }
         // Pantalla 2 -> 3
         guideBinding.btnSiguienteP2.setOnClickListener { animarTransicion { mostrarPantalla(3) } }
-        // TODO: OMITIR
+        guideBinding.btnOmitirP2.setOnClickListener { cerrarGuia() }
         // Pantalla 3 -> 4
         guideBinding.btnSiguienteP3.setOnClickListener { animarTransicion { mostrarPantalla(4) } }
-        // TODO: OMITIR
+        guideBinding.btnOmitirP3.setOnClickListener { cerrarGuia() }
         // Pantalla 4 -> 5
         guideBinding.btnSiguienteP4.setOnClickListener { animarTransicion { mostrarPantalla(5) } }
-        // TODO: OMITIR
+        guideBinding.btnOmitirP4.setOnClickListener { cerrarGuia() }
         // Pantalla 5 -> 6
         guideBinding.btnSiguienteP5.setOnClickListener { animarTransicion { mostrarPantalla(6) } }
-        // TODO: OMITIR
+        guideBinding.btnAdelante.setOnClickListener { cerrarGuia() }
     }
 
     private fun mostrarPantalla(numero: Int) {
@@ -151,6 +151,23 @@ class MainActivity : AppCompatActivity() {
                     .alpha(1f)
                     .setDuration(300)
                     .start()
+            }.start()
+    }
+
+
+
+    // Para cuando se de al botón de omitir o adelante en la última pantalla
+    // Hace un fadeout y guarda el estado de la guía el en prefs
+    private fun cerrarGuia() {
+        guideBinding.guideLayout.animate()
+            .alpha(0f)
+            .setDuration(400)
+            .withEndAction {
+                guideBinding.guideLayout.visibility = View.GONE
+                getSharedPreferences("SpyroPrefs", MODE_PRIVATE)
+                    .edit {
+                        putBoolean("guia_completada", true)
+                    }
             }.start()
     }
 }
