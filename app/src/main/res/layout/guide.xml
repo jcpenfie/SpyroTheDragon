@@ -123,8 +123,8 @@
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/omitir"
                 android:layout_marginHorizontal="10dp"
+                android:text="@string/omitir"
                 android:textColor="@color/black" />
 
             <Button
@@ -132,10 +132,11 @@
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/siguiente"
                 android:backgroundTint="@color/blue"
-                android:textColor="@color/white"/>
+                android:text="@string/siguiente"
+                android:textColor="@color/white" />
         </LinearLayout>
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -145,6 +146,7 @@
             android:text="@string/aqu_podr_s_explorar_a_todos_los_personajes_del_mundo_de_spyro"
             android:textColor="@color/white"
             android:textSize="18sp" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="56dp"
@@ -180,6 +182,7 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1" />
+
         <LinearLayout
             style="?android:attr/buttonBarStyle"
             android:layout_width="match_parent"
@@ -193,8 +196,8 @@
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/omitir"
                 android:layout_marginHorizontal="10dp"
+                android:text="@string/omitir"
                 android:textColor="@color/black" />
 
             <Button
@@ -202,10 +205,11 @@
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/siguiente"
                 android:backgroundTint="@color/blue"
-                android:textColor="@color/white"/>
+                android:text="@string/siguiente"
+                android:textColor="@color/white" />
         </LinearLayout>
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -250,6 +254,7 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1" />
+
         <LinearLayout
             style="?android:attr/buttonBarStyle"
             android:layout_width="match_parent"
@@ -263,8 +268,8 @@
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/omitir"
                 android:layout_marginHorizontal="10dp"
+                android:text="@string/omitir"
                 android:textColor="@color/black" />
 
             <Button
@@ -272,10 +277,11 @@
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/siguiente"
                 android:backgroundTint="@color/blue"
-                android:textColor="@color/white"/>
+                android:text="@string/siguiente"
+                android:textColor="@color/white" />
         </LinearLayout>
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -314,6 +320,7 @@
         android:layout_height="match_parent"
         android:background="@android:color/transparent"
         android:visibility="gone">
+
         <LinearLayout
             style="?android:attr/buttonBarStyle"
             android:layout_width="match_parent"
@@ -327,8 +334,8 @@
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/omitir"
                 android:layout_marginHorizontal="10dp"
+                android:text="@string/omitir"
                 android:textColor="@color/black" />
 
             <Button
@@ -336,10 +343,11 @@
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/siguiente"
                 android:backgroundTint="@color/blue"
-                android:textColor="@color/white"/>
+                android:text="@string/siguiente"
+                android:textColor="@color/white" />
         </LinearLayout>
+
         <View
             android:id="@+id/ring_p5"
             android:layout_width="60dp"
