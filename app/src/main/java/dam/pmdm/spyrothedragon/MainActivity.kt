@@ -132,10 +132,27 @@ class MainActivity : AppCompatActivity() {
 
         when (numero) {
             1 -> guideBinding.pantalla1.visibility = View.VISIBLE
-            2 -> guideBinding.pantalla2.visibility = View.VISIBLE
-            3 -> guideBinding.pantalla3.visibility = View.VISIBLE
-            4 -> guideBinding.pantalla4.visibility = View.VISIBLE
-            5 -> guideBinding.pantalla5.visibility = View.VISIBLE
+            2 -> {
+                guideBinding.pantalla2.visibility = View.VISIBLE
+                animarBocadillo(guideBinding.bocadilloP2)
+
+            }
+
+            3 -> {
+                guideBinding.pantalla3.visibility = View.VISIBLE
+                animarBocadillo(guideBinding.bocadilloP3)
+            }
+
+            4 -> {
+                guideBinding.pantalla4.visibility = View.VISIBLE
+                animarBocadillo(guideBinding.bocadilloP4)
+            }
+
+            5 -> {
+                guideBinding.pantalla5.visibility = View.VISIBLE
+                animarBocadillo(guideBinding.bocadilloP5)
+            }
+
             6 -> guideBinding.pantalla6.visibility = View.VISIBLE
         }
     }
@@ -154,7 +171,22 @@ class MainActivity : AppCompatActivity() {
             }.start()
     }
 
-
+    // Animación simple de fade in
+    private fun animarBocadillo(bocadillo: View) {
+        bocadillo.animate()
+            .scaleX(1.1f)
+            .scaleY(1.1f)
+            .setDuration(300)
+            .withEndAction {
+                // Al terminar, volvemos a la escala original (1.0)
+                bocadillo.animate()
+                    .scaleX(1f)
+                    .scaleY(1f)
+                    .setDuration(300)
+                    .start()
+            }
+            .start()
+    }
 
     // Para cuando se de al botón de omitir o adelante en la última pantalla
     // Hace un fadeout y guarda el estado de la guía el en prefs
