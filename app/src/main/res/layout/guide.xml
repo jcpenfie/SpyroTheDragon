@@ -132,7 +132,7 @@
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:backgroundTint="@color/blue"
+                android:backgroundTint="@color/purple"
                 android:text="@string/siguiente"
                 android:textColor="@color/white" />
         </LinearLayout>
@@ -205,7 +205,7 @@
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:backgroundTint="@color/blue"
+                android:backgroundTint="@color/purple"
                 android:text="@string/siguiente"
                 android:textColor="@color/white" />
         </LinearLayout>
@@ -277,7 +277,7 @@
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:backgroundTint="@color/blue"
+                android:backgroundTint="@color/purple"
                 android:text="@string/siguiente"
                 android:textColor="@color/white" />
         </LinearLayout>
@@ -343,7 +343,7 @@
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:backgroundTint="@color/blue"
+                android:backgroundTint="@color/purple"
                 android:text="@string/siguiente"
                 android:textColor="@color/white" />
         </LinearLayout>
