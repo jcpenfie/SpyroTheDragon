@@ -1,5 +1,6 @@
 package dam.pmdm.spyrothedragon
 
+import android.media.SoundPool
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
@@ -135,27 +136,55 @@ class MainActivity : AppCompatActivity() {
         when (numero) {
             1 -> guideBinding.pantalla1.visibility = View.VISIBLE
             2 -> {
+                val soundPool = SoundPool.Builder().setMaxStreams(1).build()
+                val soundId = soundPool.load(this, R.raw.fool1, 1)
+                soundPool.setOnLoadCompleteListener { _, _, _ ->
+                    soundPool.play(soundId, 1f, 1f, 0, 0, 1f)
+                }
                 guideBinding.pantalla2.visibility = View.VISIBLE
                 animarBocadillo(guideBinding.bocadilloP2)
 
             }
 
             3 -> {
+                val soundPool = SoundPool.Builder().setMaxStreams(1).build()
+                val soundId = soundPool.load(this, R.raw.fool1, 1)
+                soundPool.setOnLoadCompleteListener { _, _, _ ->
+                    soundPool.play(soundId, 1f, 1f, 0, 0, 1f)
+                }
                 guideBinding.pantalla3.visibility = View.VISIBLE
                 animarBocadillo(guideBinding.bocadilloP3)
             }
 
             4 -> {
+                val soundPool = SoundPool.Builder().setMaxStreams(1).build()
+                val soundId = soundPool.load(this, R.raw.fool1, 1)
+                soundPool.setOnLoadCompleteListener { _, _, _ ->
+                    soundPool.play(soundId, 1f, 1f, 0, 0, 1f)
+                }
                 guideBinding.pantalla4.visibility = View.VISIBLE
                 animarBocadillo(guideBinding.bocadilloP4)
             }
 
             5 -> {
+                val soundPool = SoundPool.Builder().setMaxStreams(1).build()
+                val soundId = soundPool.load(this, R.raw.fool1, 1)
+                soundPool.setOnLoadCompleteListener { _, _, _ ->
+                    soundPool.play(soundId, 1f, 1f, 0, 0, 1f)
+                }
                 guideBinding.pantalla5.visibility = View.VISIBLE
                 animarBocadillo(guideBinding.bocadilloP5)
             }
 
-            6 -> guideBinding.pantalla6.visibility = View.VISIBLE
+            6 -> {
+                guideBinding.pantalla6.visibility = View.VISIBLE
+
+                val soundPool = SoundPool.Builder().setMaxStreams(1).build()
+                val soundId = soundPool.load(this, R.raw.up, 1)
+                soundPool.setOnLoadCompleteListener { _, _, _ ->
+                    soundPool.play(soundId, 1f, 1f, 0, 0, 1f)
+                }
+            }
         }
     }
 
