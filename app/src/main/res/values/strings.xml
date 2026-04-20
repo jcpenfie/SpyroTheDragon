@@ -16,4 +16,16 @@
     <string name="bot_n_diamante">Botón diamante</string>
     <string name="comenzar">Comenzar</string>
     <string name="bot_n_de_diamante">botón de diamante</string>
+    <string name="aqu_podr_s_explorar_a_todos_los_personajes_del_mundo_de_spyro">Aquí podrás explorar a todos los personajes del mundo de Spyro.</string>
+    <string name="aqu_encontrar_s_los_coleccionables">Aquí encontrarás los coleccionables</string>
+    <string name="aqu_encontrar_s_los_mundos_de_spyro">Aquí encontrarás los mundos de Spyro</string>
+    <string name="pulsa_este_icono_para_acceder_a_la_informaci_n_detallada_y_los_cr_ditos_de_la_aplicaci_n">Pulsa este icono para acceder a la información detallada y los créditos de la aplicación.</string>
+    <string name="logo_final">Logo Final</string>
+    <string name="gu_a_completada">¡GUÍA COMPLETADA!</string>
+    <string name="ya_est_s_listo_para">Ya estás listo para:</string>
+    <string name="adelante_btn">¡Adelante!</string>
+    <string name="usar_el_soporte_m_gico">- Usar el Soporte Mágico</string>
+    <string name="gestionar_coleccionables">- Gestionar Coleccionables</string>
+    <string name="descubrir_mundos">- Descubrir Mundos</string>
+    <string name="explorar_personajes">- Explorar Personajes</string>
 </resources>
