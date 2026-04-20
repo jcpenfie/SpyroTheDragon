@@ -55,6 +55,14 @@ class MainActivity : AppCompatActivity() {
                 }
             }
         }
+
+        // Prefs -> Mostrar guía si es la primera vez
+        val prefs = getSharedPreferences("SpyroPrefs", MODE_PRIVATE)
+        if(!prefs.getBoolean("guia_completada", false)) {
+            // mostrarGuia()
+        } else{
+            guideBinding.guideLayout.visibility = View.GONE
+        }
     }
 
     private fun selectedBottomMenu(menuItem: MenuItem): Boolean {
