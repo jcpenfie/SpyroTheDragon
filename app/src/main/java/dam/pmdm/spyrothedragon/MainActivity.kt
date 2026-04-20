@@ -14,6 +14,7 @@ import androidx.navigation.ui.NavigationUI
 import dam.pmdm.spyrothedragon.databinding.ActivityMainBinding
 import dam.pmdm.spyrothedragon.databinding.GuideBinding
 
+
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
@@ -158,6 +159,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    // Animación simple de fade in
     private fun animarTransicion(accion: () -> Unit) {
         val layout = guideBinding.guideLayout
         layout.animate()
