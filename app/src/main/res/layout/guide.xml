@@ -138,6 +138,7 @@
         </LinearLayout>
 
         <TextView
+            android:id="@+id/bocadillo_p2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
@@ -211,6 +212,7 @@
         </LinearLayout>
 
         <TextView
+            android:id="@+id/bocadillo_p3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
@@ -283,6 +285,7 @@
         </LinearLayout>
 
         <TextView
+            android:id="@+id/bocadillo_p4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
@@ -452,7 +455,7 @@
         </LinearLayout>
 
         <Button
-            android:id="@+id/btn_comenzar_app"
+            android:id="@+id/btn_adelante"
             android:layout_width="200dp"
             android:layout_height="60dp"
             android:backgroundTint="#FFD700"
