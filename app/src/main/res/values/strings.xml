@@ -28,4 +28,6 @@
     <string name="gestionar_coleccionables">- Gestionar Coleccionables</string>
     <string name="descubrir_mundos">- Descubrir Mundos</string>
     <string name="explorar_personajes">- Explorar Personajes</string>
+    <string name="omitir">Omitir</string>
+    <string name="siguiente">Siguiente</string>
 </resources>

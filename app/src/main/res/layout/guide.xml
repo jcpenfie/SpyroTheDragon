@@ -110,6 +110,32 @@
             android:layout_height="0dp"
             android:layout_weight="1" />
 
+        <LinearLayout
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:gravity="end">
+
+            <Button
+                android:id="@+id/btn_omitir_p2"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/omitir"
+                android:layout_marginHorizontal="10dp"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/btn_siguiente_p2"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/siguiente"
+                android:backgroundTint="@color/blue"
+                android:textColor="@color/white"/>
+        </LinearLayout>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -119,7 +145,6 @@
             android:text="@string/aqu_podr_s_explorar_a_todos_los_personajes_del_mundo_de_spyro"
             android:textColor="@color/white"
             android:textSize="18sp" />
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="56dp"
@@ -139,9 +164,9 @@
                     android:layout_gravity="center"
                     android:background="@drawable/ring_nav" />
             </FrameLayout>
-
         </LinearLayout>
     </LinearLayout>
+
 
     <LinearLayout
         android:id="@+id/pantalla3"
@@ -155,7 +180,32 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1" />
+        <LinearLayout
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:gravity="end">
 
+            <Button
+                android:id="@+id/btn_omitir_p3"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/omitir"
+                android:layout_marginHorizontal="10dp"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/btn_siguiente_p3"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/siguiente"
+                android:backgroundTint="@color/blue"
+                android:textColor="@color/white"/>
+        </LinearLayout>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -200,7 +250,32 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1" />
+        <LinearLayout
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:gravity="end">
 
+            <Button
+                android:id="@+id/btn_omitir_p4"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/omitir"
+                android:layout_marginHorizontal="10dp"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/btn_siguiente_p4"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/siguiente"
+                android:backgroundTint="@color/blue"
+                android:textColor="@color/white"/>
+        </LinearLayout>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -239,7 +314,32 @@
         android:layout_height="match_parent"
         android:background="@android:color/transparent"
         android:visibility="gone">
+        <LinearLayout
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="100dp"
+            android:gravity="bottom|end">
 
+            <Button
+                android:id="@+id/btn_omitir_p5"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/omitir"
+                android:layout_marginHorizontal="10dp"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/btn_siguiente_p5"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/siguiente"
+                android:backgroundTint="@color/blue"
+                android:textColor="@color/white"/>
+        </LinearLayout>
         <View
             android:id="@+id/ring_p5"
             android:layout_width="60dp"
@@ -266,8 +366,8 @@
                 android:text="@string/pulsa_este_icono_para_acceder_a_la_informaci_n_detallada_y_los_cr_ditos_de_la_aplicaci_n"
                 android:textColor="@color/white"
                 android:textSize="16sp" />
-
         </LinearLayout>
+
     </FrameLayout>
 
     <LinearLayout
@@ -278,7 +378,7 @@
         android:gravity="center"
         android:orientation="vertical"
         android:padding="20dp"
-        android:visibility="visible">
+        android:visibility="gone">
 
         <ImageView
             android:layout_width="120dp"
