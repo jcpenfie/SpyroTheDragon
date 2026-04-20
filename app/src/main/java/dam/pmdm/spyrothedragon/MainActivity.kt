@@ -105,6 +105,21 @@ class MainActivity : AppCompatActivity() {
     private fun mostrarGuia(){
         guideBinding.guideLayout.visibility = View.VISIBLE
         mostrarPantalla(1)
+
+        // Pantalla 1 -> 2
+        guideBinding.buttonComenzar.setOnClickListener { animarTransicion { mostrarPantalla(2) } }
+        // Pantalla 2 -> 3
+        guideBinding.btnSiguienteP2.setOnClickListener { animarTransicion { mostrarPantalla(3) } }
+        // TODO: OMITIR
+        // Pantalla 3 -> 4
+        guideBinding.btnSiguienteP3.setOnClickListener { animarTransicion { mostrarPantalla(4) } }
+        // TODO: OMITIR
+        // Pantalla 4 -> 5
+        guideBinding.btnSiguienteP4.setOnClickListener { animarTransicion { mostrarPantalla(5) } }
+        // TODO: OMITIR
+        // Pantalla 5 -> 6
+        guideBinding.btnSiguienteP5.setOnClickListener { animarTransicion { mostrarPantalla(6) } }
+        // TODO: OMITIR
     }
 
     private fun mostrarPantalla(numero:Int){
@@ -123,5 +138,19 @@ class MainActivity : AppCompatActivity() {
             5 -> guideBinding.pantalla5.visibility = View.VISIBLE
             6 -> guideBinding.pantalla6.visibility = View.VISIBLE
         }
+    }
+
+    private fun animarTransicion(accion: () -> Unit) {
+        val layout = guideBinding.guideLayout
+        layout.animate()
+            .alpha(0f)
+            .setDuration(300)
+            .withEndAction {
+                accion()
+                layout.animate()
+                    .alpha(1f)
+                    .setDuration(300)
+                    .start()
+            }.start()
     }
 }
