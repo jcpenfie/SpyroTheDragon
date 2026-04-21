@@ -10,7 +10,7 @@ La guía de inicio interactiva presentará las principales funcionalidades de la
 
 | Incio Guía                                                                                                                           |                                                                      Tabs                                                            |                                                         Fin Guía                                                                     |  
 |--------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------:|
-| <img width="1080" height="2400" alt="image" src="https://github.com/user-attachments/assets/691ee30e-49fa-4466-9a3f-e39fdf8edce9" /> | <img width="1080" height="2400" alt="image" src="https://github.com/user-attachments/assets/9e744b57-571d-49f1-a231-45b057b51486" /> | <img width="1080" height="2400" alt="image" src="https://github.com/user-attachments/assets/1b8c2b8e-48de-4be5-91f3-910240902de9" /> |
+|<img width="1080" height="2400" alt="image" src="https://github.com/user-attachments/assets/5fe5f8e0-e498-416c-a42e-a02395271792" /> |<img width="1080" height="2400" alt="image" src="https://github.com/user-attachments/assets/5291cac2-0eea-4a78-ac09-dac76584da3f" />|  <img width="1080" height="2400" alt="image" src="https://github.com/user-attachments/assets/20a200d3-323a-4475-9dca-e28b82e5c42a" />  |
 
 
 ## 🚀 Instalación 🚀
