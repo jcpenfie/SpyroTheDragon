@@ -126,6 +126,8 @@ class MainActivity : AppCompatActivity() {
         guideBinding.btnOmitirP4.setOnClickListener { cerrarGuia() }
         // Pantalla 5 -> 6
         guideBinding.btnSiguienteP5.setOnClickListener { animarTransicion { mostrarPantalla(6) } }
+        guideBinding.btnOmitirP5.setOnClickListener { cerrarGuia() }
+        // Pantalla 6
         guideBinding.btnAdelante.setOnClickListener { cerrarGuia() }
     }
 
