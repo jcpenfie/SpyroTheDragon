@@ -28,6 +28,10 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        // Registrar la Toolbar como ActionBar
+        setSupportActionBar(binding.toolbar)
+
+
         // Bindig del include
         guideBinding = GuideBinding.bind(binding.includeLayout.root)
 
